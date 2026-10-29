@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main()
+{
+int n,i,sum,res;
+  printf("Enter your number: ");
+  scanf("%d",&n);
+  printf("\nNumbers from 1 to %d:\n",n);
+  for(i=1;i<=n;i++)
+    {
+      print("%d",i);
+    }
+   sum =0;
+  i=1;
+  while(i<=n)
+    {
+      sum=sum+1;
+      i++;
+    }
+  res = 1;
+  i=1;
+  do
+    {
+      res= res*i;
+      i++;
+    }
+   while (i<=n);
+  printf("\n\nSum of numbers = %d",sum);
+  printf("\nFactorial of %d = %d",n,res);
+  return 0;
+}
+
+
+
+//OUTPUT//
+//Enter your number:5
+//umbers from 1 to 5:
+//1 2 3 4 5
+//Sum of numbers =15
+//Factorial of 5=120
+
