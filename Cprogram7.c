@@ -1,8 +1,8 @@
 #include<stdio.h>
-#include< string.h>
+#include<string.h>
 int main()
 {
-  char str[50],str2[50],str3[100];
+  char str1[50],str2[50],str3[100];
   int res;
 printf("Enter the first string:");
 scanf("%s",str1);
